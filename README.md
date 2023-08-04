@@ -19,6 +19,9 @@ Nest.js 프레임워크 기반 Node 프로젝트 기본 템플릿
 - ClassValidator
 - ClassTransformer
 - ValiationPipe
+- Custom Decorator
+- Exception Filter
+- Middleware
 
 ### `DataBase & 테스트 환경 세팅`
 
