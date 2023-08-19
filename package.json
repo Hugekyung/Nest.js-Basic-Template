@@ -67,6 +67,9 @@
         ],
         "coverageDirectory": "../coverage",
         "testEnvironment": "node",
-        "moduleNameMapper": {}
+        "moduleNameMapper": {
+            "^@app/entity(|/.*)$": "<rootDir>/entity/src/$1",
+            "^@app/database(|/.*)$": "<rootDir>/database/src/$1"
+        }
     }
 }
