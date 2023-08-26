@@ -24,7 +24,14 @@ Nest.js 프레임워크 기반 Node 프로젝트 기본 템플릿
         ```
 
 -   Path Mapper 설정
--   tsconfig.json 설정
+-   tsconfig.json 설정: 기본 설정에 아래 옵션들 추가
+    ```json
+    {
+        "esModuleInterop": true, // CommonJS 모듈을 import 하기 위한 옵션
+        "strict": true, // 엄격한 null check 옵션
+        "resolveJsonModule": true // JSON 형식을 지원하기 위한 옵션
+    }
+    ```
 
 ### `Nest.js 프레임워크 기능 세팅`
 
