@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+    Nest-Template-db:
+        image: mysql:8.0
+        ports:
+            - 5432:5432
+        environment:
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: 1234
+            POSTGRES_DB: nest-template
+        networks:
+            - projectdb
+networks:
+    projectdb:
