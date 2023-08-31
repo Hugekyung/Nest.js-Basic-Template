@@ -36,6 +36,7 @@ Nest.js 프레임워크 기반 Node 프로젝트 기본 템플릿
 
 ### `Nest.js 프레임워크 기능 세팅`
 
+-   GlobalPrefix
 -   Interceptor - Custom Logger
 -   Guard - JWT
 -   ClassValidator
